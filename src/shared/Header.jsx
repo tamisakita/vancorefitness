@@ -4,7 +4,7 @@ import Logo from "../assets/logo/Logo-Gray.png";
 import { FiX } from "react-icons/fi";
 import { TfiAlignRight } from "react-icons/tfi";
 
-import Button from "./Button";
+import ButtonComponent from "./ButtonComponent";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,7 +32,7 @@ const Header = () => {
           isOpen ? "block" : "hidden"
         } transition-all duration-300 ease-in-out`}
       >
-        <div className="text-lg lg:flex-grow">
+        <div className="text-md lg:flex-grow">
           <Link
             to="#"
             className="block mt-6 lg:inline-block lg:mt-0 text-white hover:text-gray-400 mr-4"
@@ -71,11 +71,7 @@ const Header = () => {
           </Link>
         </div>
         <div>
-          <Button
-            btnText={"Join Now"}
-            bgColor={"bg-amber-500"}
-            visible={"hidden"}
-          />
+          <ButtonComponent variant="navbar" btnText="Join Now" />
         </div>
       </div>
     </nav>

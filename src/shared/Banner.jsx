@@ -1,8 +1,8 @@
 import React from "react";
-import Button from "./Button";
+import ButtonComponent from "./ButtonComponent";
 import backgroundImage from "../assets/images/home-image.jpg";
 
-const Banner = ({ title, btnText, btnBgColor, btnVisibility }) => {
+const Banner = ({ title, btnText }) => {
   return (
     <div
       className="h-screen bg-black flex justify-center items-center flex-col px-10 lg:px-20 gap-10"
@@ -16,11 +16,7 @@ const Banner = ({ title, btnText, btnBgColor, btnVisibility }) => {
 
       <div className="absolute inset-0 flex flex-col justify-center items-center px-10 lg:px-20 gap-10 text-white pt-20">
         <h1 className="uppercase font-anton text-6xl text-center">{title}</h1>
-        <Button
-          btnText={btnText}
-          bgColor={btnBgColor}
-          visible={btnVisibility}
-        />
+        <ButtonComponent btnText={btnText} variant="default" />
       </div>
 
       <div className="absolute bottom-10 flex justify-center items-center">
