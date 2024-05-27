@@ -4,6 +4,9 @@ import Info from "../shared/Info";
 import InfoImage1 from "../assets/images/home-info.jpg";
 import InfoLeft from "../shared/InfoLeft";
 import TestimonialsCard from "../shared/TestimonialsCard";
+import profileImage from "../assets/images/profile-01.jpg";
+import profileImage2 from "../assets/images/profile-02.jpg";
+import profileImage3 from "../assets/images/profile-03.jpg";
 
 const Home = () => {
   return (
@@ -37,14 +40,31 @@ const Home = () => {
         btnVariant="orange"
         btnText="Join Now"
       />
-      <div className="bg-dark-blue opacity-90 h-[80vh] px-20 py-40">
-        <h2 className="font-anton text-center text-5xl text-black pb-10">
+      <div className="bg-dark-gray opacity-90 p-20">
+        <h2 className="font-anton text-center text-5xl text-white pb-16">
           Why people love Van Core Fitness
         </h2>
-        <div className="flex flex-row gap-20">
-          <TestimonialsCard />
-          <TestimonialsCard />
-          <TestimonialsCard />
+        <div className="grid grid-rows-3 gap-10 md:grid-cols-3 md:grid-rows-1">
+          <TestimonialsCard
+            image={profileImage}
+            imageAlt="Van Core Fitness Customer"
+            text="“Van Core Fitness is a hidden gem! I joined a month ago, and I've
+            already seen incredible results. The trainers here are like fitness
+            wizards, and the equipment is straight out of the future”"
+            name="Seth R."
+          />
+          <TestimonialsCard
+            image={profileImage2}
+            imageAlt="Van Core Fitness Customer"
+            text="“Van Core Fitness is the real deal. I've been a member for over a year, and it's become my second home. The staff is incredibly friendly and supportive, and the community is fantastic.”"
+            name="Sherry G."
+          />
+          <TestimonialsCard
+            image={profileImage3}
+            imageAlt="Van Core Fitness Customer"
+            text="“Van Core Fitness has changed my life! Not only have I achieved my fitness goals, but I've also made lifelong friends here. The group classes are a blast, and the gym's playlist is always on point”"
+            name="Trey H."
+          />
         </div>
       </div>
     </div>

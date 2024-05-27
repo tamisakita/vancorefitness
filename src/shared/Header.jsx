@@ -37,12 +37,6 @@ const Header = () => {
             to="#"
             className="block mt-6 lg:inline-block lg:mt-0 text-white hover:text-gray-400 mr-4"
           >
-            First Link
-          </Link>
-          <Link
-            to="#"
-            className="block mt-6 lg:inline-block lg:mt-0 text-white hover:text-gray-400 mr-4"
-          >
             Second Link
           </Link>
           <Link
