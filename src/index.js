@@ -5,6 +5,7 @@ import "./index.css";
 
 import Layout from "./views/Layout";
 import Home from "./views/Home";
+import Locations from "./views/Locations";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -12,6 +13,9 @@ root.render(
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
+        <Route path="/" element={<Home />} />
+
+        <Route path="locations" element={<Locations />} />
       </Route>
     </Routes>
   </BrowserRouter>

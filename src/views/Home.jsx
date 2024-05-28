@@ -4,6 +4,8 @@ import Info from "../shared/Info";
 import InfoImage1 from "../assets/images/home-info.jpg";
 import InfoLeft from "../shared/InfoLeft";
 import TestimonialsCard from "../shared/TestimonialsCard";
+
+import bannerImage from "../assets/images/home-image.jpg";
 import profileImage from "../assets/images/profile-01.jpg";
 import profileImage2 from "../assets/images/profile-02.jpg";
 import profileImage3 from "../assets/images/profile-03.jpg";
@@ -15,6 +17,7 @@ const Home = () => {
         title="DISCOVER YOUR STRENGTH. SHAPE YOUR STORY."
         btnText="Join Now"
         variant="default"
+        backgroundImage={bannerImage}
       />
       <Info
         image={InfoImage1}

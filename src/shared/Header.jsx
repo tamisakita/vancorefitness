@@ -34,10 +34,10 @@ const Header = () => {
       >
         <div className="text-md lg:flex-grow">
           <Link
-            to="#"
+            to="/locations"
             className="block mt-6 lg:inline-block lg:mt-0 text-white hover:text-gray-400 mr-4"
           >
-            Second Link
+            Locations
           </Link>
           <Link
             to="#"
