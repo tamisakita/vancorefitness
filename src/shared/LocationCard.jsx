@@ -25,14 +25,24 @@ const LocationCard = ({ title, image, imageAlt, location }) => {
           {title}
         </h3>
       </div>
-      <div className="text-center text-lg font-light">{location}</div>
+      <div className="text-center text-lg font-light">{location.address}</div>
       <button
-        className="w-40 text-center text-black font-semibold rounded-full py-3 hover:bg-amber-600 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-opacity-50 shadow-2xl bg-transparent border border-black hover:text-white hover:border-dark-blue"
+        className="w-40 text-center text-black font-semibold rounded-full py-3 hover:bg-amber-600 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-opacity-50 shadow-2xl bg-transparent border border-black hover:text-white hover:border-dark-blue m-2"
         onClick={handleViewMore}
       >
         View More
       </button>
-      <LocationModal isOpen={isModalOpen} onClose={handleCloseModal} />
+      {isModalOpen && (
+        <LocationModal
+          isOpen={isModalOpen}
+          onClose={handleCloseModal}
+          title={location.title}
+          address={location.address}
+          phone={location.phone}
+          email={location.email}
+          position={location.position}
+        />
+      )}
     </div>
   );
 };
