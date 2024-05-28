@@ -1,8 +1,7 @@
 import React from "react";
 import ButtonComponent from "./ButtonComponent";
-import backgroundImage from "../assets/images/home-image.jpg";
 
-const Banner = ({ title, btnText }) => {
+const Banner = ({ title, btnText, backgroundImage }) => {
   return (
     <div
       className="h-screen bg-black flex justify-center items-center flex-col px-10 lg:px-20 gap-10"
