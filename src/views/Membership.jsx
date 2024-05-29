@@ -2,6 +2,7 @@ import React from "react";
 import bannerImage from "../assets/images/membership-image.jpg";
 import Banner from "../shared/Banner";
 import MembershipCard from "../shared/MembershipCard";
+import SectionLayout from "../shared/SectionLayout";
 
 const Membership = () => {
   const membershipDetails = [
@@ -44,23 +45,21 @@ const Membership = () => {
         variant="default"
         backgroundImage={bannerImage}
       />
-      <div className="flex flex-col items-center px-10 py-20 lg:p-40 bg-neutral-300 opacity-90">
-        <h2 className="font-anton text-center text-4xl lg:text-5xl text-black pb-10 lg:leading-normal">
-          Find the Membership plan <br />
-          that works the best for you
-        </h2>
-        <p className="text-center text-xl pb-20 lg:px-20">
-          Van Core Fitness offers versatile membership plans for all fitness
-          levels. Choose from Basic, Pro, and Premium memberships, each tailored
-          to your needs. Enjoy workouts, nutrition guidance, live classes, and
-          more, making fitness accessible and enjoyable for all.
-        </p>
+      <SectionLayout
+        title="Find the Membership plan
+        that works the best for you"
+        bgColor="bg-neutral-300"
+        text="Van Core Fitness offers versatile membership plans for all fitness
+        levels. Choose from Basic, Pro, and Premium memberships, each tailored
+        to your needs. Enjoy workouts, nutrition guidance, live classes, and
+        more, making fitness accessible and enjoyable for all."
+      >
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           <MembershipCard membershipDetails={membershipDetails[0]} />
           <MembershipCard membershipDetails={membershipDetails[1]} />
           <MembershipCard membershipDetails={membershipDetails[2]} />
         </div>
-      </div>
+      </SectionLayout>
     </div>
   );
 };
