@@ -46,16 +46,16 @@ const Header = () => {
             Classes
           </Link>
           <Link
-            to="#"
+            to="/membership"
             className="block mt-6 lg:inline-block lg:mt-0 px-5 text-white hover:text-gray-400 mr-4"
           >
-            Fourth Link
+            Membership
           </Link>
           <Link
-            to="#"
+            to="/about-us"
             className="block mt-6 lg:inline-block lg:mt-0 px-5 text-white hover:text-gray-400 mr-4"
           >
-            Quinto Link
+            About Us
           </Link>
           <Link
             to="#"
