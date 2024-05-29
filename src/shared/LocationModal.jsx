@@ -1,8 +1,15 @@
 import React from "react";
 import { APIProvider, Map, Marker } from "@vis.gl/react-google-maps";
 
-const LocationModal = ({ isOpen, onClose }) => {
-  const position = { lat: 53.54992, lng: 10.00678 };
+const LocationModal = ({
+  isOpen,
+  onClose,
+  title,
+  address,
+  phone,
+  email,
+  position,
+}) => {
   if (!isOpen) return null;
   return (
     <APIProvider apiKey={"AIzaSyCdZDLYRQB5c-1IQVmjUO_MqPFFuYQgiBY"}>
@@ -17,13 +24,14 @@ const LocationModal = ({ isOpen, onClose }) => {
                 &times;
               </button>
             </div>
-            {/* <div className="p-4">{children}</div> */}
             <div className="grid grid-cols-1 lg:grid-cols-2 m-10 gap-6">
               <div>
-                <h2 className="text-center font-anton text-3xl pb-6">Cambie</h2>
-                <p>752 West 12th Avenue, Vancouver BC V5Z 3X7</p>
-                <p>604-555-6262</p>
-                <p>van-core-fitness@gmail.ca</p>
+                <h2 className="text-center font-anton text-3xl pb-6">
+                  {title}
+                </h2>
+                <p>{address}</p>
+                <p>{phone}</p>
+                <p>{email}</p>
                 <div>
                   <h3 className="text-center font-semibold text-xl text-neutral-500 py-6">
                     Hours
@@ -53,7 +61,7 @@ const LocationModal = ({ isOpen, onClose }) => {
                 </div>
               </div>
               <div>
-                <Map defaultCenter={position} defaultZoom={10}>
+                <Map defaultCenter={position} defaultZoom={13}>
                   <Marker position={position} />
                 </Map>
               </div>
