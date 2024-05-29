@@ -35,31 +35,31 @@ const Header = () => {
         <div className="text-md lg:flex-grow">
           <Link
             to="/locations"
-            className="block mt-6 lg:inline-block lg:mt-0 text-white hover:text-gray-400 mr-4"
+            className="block mt-6 lg:inline-block lg:mt-0 px-5 text-white hover:text-gray-400 mr-4"
           >
             Locations
           </Link>
           <Link
-            to="#"
-            className="block mt-6 lg:inline-block lg:mt-0 text-white hover:text-gray-400 mr-4"
+            to="/classes"
+            className="block mt-6 lg:inline-block lg:mt-0 px-5 text-white hover:text-gray-400 mr-4"
           >
-            Third Link
+            Classes
           </Link>
           <Link
             to="#"
-            className="block mt-6 lg:inline-block lg:mt-0 text-white hover:text-gray-400 mr-4"
+            className="block mt-6 lg:inline-block lg:mt-0 px-5 text-white hover:text-gray-400 mr-4"
           >
             Fourth Link
           </Link>
           <Link
             to="#"
-            className="block mt-6 lg:inline-block lg:mt-0 text-white hover:text-gray-400 mr-4"
+            className="block mt-6 lg:inline-block lg:mt-0 px-5 text-white hover:text-gray-400 mr-4"
           >
             Quinto Link
           </Link>
           <Link
             to="#"
-            className="block mt-6 mb-10 lg:mb-0 lg:inline-block lg:mt-0 text-white hover:text-gray-400 mr-4"
+            className="block mt-6 mb-10 lg:mb-0 lg:inline-block lg:mt-0 px-5 text-white hover:text-gray-400 mr-4"
           >
             Sexto Link
           </Link>

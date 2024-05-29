@@ -13,7 +13,7 @@ const LocationCard = ({ title, image, imageAlt, location }) => {
   };
 
   return (
-    <div className="flex flex-col items-center gap-10">
+    <div className="flex flex-col items-center gap-10 justify-between">
       <div className="relative w-full h-60 overflow-hidden">
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <img
