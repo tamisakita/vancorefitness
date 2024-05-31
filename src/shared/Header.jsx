@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 import Logo from "../assets/logo/Logo-Gray.png";
 import { FiX } from "react-icons/fi";
 import { TfiAlignRight } from "react-icons/tfi";
@@ -8,11 +8,21 @@ import ButtonComponent from "./ButtonComponent";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation();
 
   const toggleMenu = () => setIsOpen(!isOpen);
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
+
+  const linkClass =
+    "block mt-6 lg:inline-block lg:mt-0 px-5 text-white hover:text-gray-400 mr-4";
+  const activeLinkClass =
+    "block mt-6 lg:inline-block lg:mt-0 px-5 text-amber-300 font-bold hover:text-gray-400 mr-4";
+
   return (
-    <nav className="bg-dark-gray bg-opacity-70 mx-auto flex items-center justify-between flex-wrap py-4 px-20 fixed w-full shadow-2xl z-50">
+    <nav className="bg-dark-gray bg-opacity-70 mx-auto flex items-center justify-between flex-wrap py-4 px-10 lg:px-20 fixed w-full shadow-2xl z-50">
       <div className="flex items-center flex-shrink-0 text-black mr-6">
         <Link to="/">
           <img src={Logo} alt="Vancore Fitness Logo" className="h-20" />
@@ -35,33 +45,43 @@ const Header = () => {
         <div className="text-md lg:flex-grow">
           <Link
             to="/locations"
-            className="block mt-6 lg:inline-block lg:mt-0 px-5 text-white hover:text-gray-400 mr-4"
+            className={
+              location.pathname === "/locations" ? activeLinkClass : linkClass
+            }
           >
             Locations
           </Link>
           <Link
             to="/classes"
-            className="block mt-6 lg:inline-block lg:mt-0 px-5 text-white hover:text-gray-400 mr-4"
+            className={
+              location.pathname === "/classes" ? activeLinkClass : linkClass
+            }
           >
             Classes
           </Link>
           <Link
             to="/membership"
-            className="block mt-6 lg:inline-block lg:mt-0 px-5 text-white hover:text-gray-400 mr-4"
+            className={
+              location.pathname === "/membership" ? activeLinkClass : linkClass
+            }
           >
             Membership
           </Link>
           <Link
             to="/about-us"
-            className="block mt-6 lg:inline-block lg:mt-0 px-5 text-white hover:text-gray-400 mr-4"
+            className={
+              location.pathname === "/about-us" ? activeLinkClass : linkClass
+            }
           >
             About Us
           </Link>
           <Link
-            to="#"
-            className="block mt-6 mb-10 lg:mb-0 lg:inline-block lg:mt-0 px-5 text-white hover:text-gray-400 mr-4"
+            to="/contact-us"
+            className={
+              location.pathname === "/contact-us" ? activeLinkClass : linkClass
+            }
           >
-            Sexto Link
+            Contact Us
           </Link>
         </div>
         <div>

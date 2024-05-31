@@ -9,6 +9,7 @@ import Locations from "./views/Locations";
 import Classes from "./views/Classes";
 import Membership from "./views/Membership";
 import AboutUs from "./views/AboutUs";
+import ContactUs from "./views/ContactUs";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -21,6 +22,7 @@ root.render(
         <Route path="classes" element={<Classes />} />
         <Route path="membership" element={<Membership />} />
         <Route path="about-us" element={<AboutUs />} />
+        <Route path="contact-us" element={<ContactUs />} />
       </Route>
     </Routes>
   </BrowserRouter>

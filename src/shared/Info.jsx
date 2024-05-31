@@ -3,7 +3,11 @@ import ButtonComponent from "./ButtonComponent";
 
 const Info = ({ image, imageAlt, title, text, btnVariant, btnText }) => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 mx-10 my-20 lg:mx-20 lg:my-40 gap-10">
+    <div
+      className="grid grid-cols-1 lg:grid-cols-2 mx-10 my-20 lg:mx-20 lg:my-40 gap-10"
+      data-aos="fade-down-right"
+      data-aos-duration="1000"
+    >
       <div>
         <img src={image} alt={imageAlt} />
       </div>
