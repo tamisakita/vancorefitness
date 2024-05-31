@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/vancorefitness/static/css/main.ab088823.css",
-    "main.js": "/vancorefitness/static/js/main.a30f89c1.js",
+    "main.js": "/vancorefitness/static/js/main.e8e1f673.js",
     "static/media/home-image.jpg": "/vancorefitness/static/media/home-image.bc3569c48b2a0f56721d.jpg",
     "static/media/location-image.jpg": "/vancorefitness/static/media/location-image.1b9eece12c11e26c85fe.jpg",
     "static/media/membership-image.jpg": "/vancorefitness/static/media/membership-image.7272446ad7313d862220.jpg",
@@ -30,10 +30,10 @@
     "static/media/class-studios.jpg": "/vancorefitness/static/media/class-studios.9bfce51693f7ebc60e3c.jpg",
     "index.html": "/vancorefitness/index.html",
     "main.ab088823.css.map": "/vancorefitness/static/css/main.ab088823.css.map",
-    "main.a30f89c1.js.map": "/vancorefitness/static/js/main.a30f89c1.js.map"
+    "main.e8e1f673.js.map": "/vancorefitness/static/js/main.e8e1f673.js.map"
   },
   "entrypoints": [
     "static/css/main.ab088823.css",
-    "static/js/main.a30f89c1.js"
+    "static/js/main.e8e1f673.js"
   ]
 }
