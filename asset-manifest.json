@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/vancorefitness/static/css/main.ab088823.css",
+    "main.js": "/vancorefitness/static/js/main.a30f89c1.js",
+    "static/media/home-image.jpg": "/vancorefitness/static/media/home-image.bc3569c48b2a0f56721d.jpg",
+    "static/media/location-image.jpg": "/vancorefitness/static/media/location-image.1b9eece12c11e26c85fe.jpg",
+    "static/media/membership-image.jpg": "/vancorefitness/static/media/membership-image.7272446ad7313d862220.jpg",
+    "static/media/classes3.jpg": "/vancorefitness/static/media/classes3.aee1f58edc575872ce3d.jpg",
+    "static/media/about-img1.jpg": "/vancorefitness/static/media/about-img1.e0e3152b9bf5c47ebf68.jpg",
+    "static/media/location1.jpg": "/vancorefitness/static/media/location1.8e197533cc06bdfac6b1.jpg",
+    "static/media/about-img2.jpg": "/vancorefitness/static/media/about-img2.3a7f3f5ddbc9642ac13c.jpg",
+    "static/media/profile-03.jpg": "/vancorefitness/static/media/profile-03.ffaec37291628d5c2b24.jpg",
+    "static/media/home-info.jpg": "/vancorefitness/static/media/home-info.8fe69c77c4cb3befcb97.jpg",
+    "static/media/about-image.jpg": "/vancorefitness/static/media/about-image.0b02a74f232494f391f4.jpg",
+    "static/media/classes4.jpg": "/vancorefitness/static/media/classes4.17e67c0b87159e46a9c6.jpg",
+    "static/media/profile-02.jpg": "/vancorefitness/static/media/profile-02.9d3ba216ae411fbd56d6.jpg",
+    "static/media/hydro.jpg": "/vancorefitness/static/media/hydro.98edf7f490c14a09a82f.jpg",
+    "static/media/location2.jpg": "/vancorefitness/static/media/location2.2fe5bc448da193280d8b.jpg",
+    "static/media/classes2.jpg": "/vancorefitness/static/media/classes2.c1ddca5ec647285ffd47.jpg",
+    "static/media/profile-01.jpg": "/vancorefitness/static/media/profile-01.dcbadd9b5742d9a920ac.jpg",
+    "static/media/location3.jpg": "/vancorefitness/static/media/location3.5984004a4269d99532b4.jpg",
+    "static/media/classes1.jpg": "/vancorefitness/static/media/classes1.fa309c8d04103b75d32c.jpg",
+    "static/media/Logo-Gray.png": "/vancorefitness/static/media/Logo-Gray.271cfe54b5a94317648e.png",
+    "static/media/shower.jpg": "/vancorefitness/static/media/shower.cf4a5c8560e9e3034b64.jpg",
+    "static/media/womans-only.jpg": "/vancorefitness/static/media/womans-only.bc99ee2bc0f53dd76aa3.jpg",
+    "static/media/personal-trainer.jpg": "/vancorefitness/static/media/personal-trainer.28f2332fd18dfe81e643.jpg",
+    "static/media/lockers.jpg": "/vancorefitness/static/media/lockers.ac0f2d1c6f813b7de6ba.jpg",
+    "static/media/stretch-zone.jpg": "/vancorefitness/static/media/stretch-zone.2bb85d5e24091e24e24f.jpg",
+    "static/media/trainning.jpg": "/vancorefitness/static/media/trainning.833b687c6eb736ea94b3.jpg",
+    "static/media/class-studios.jpg": "/vancorefitness/static/media/class-studios.9bfce51693f7ebc60e3c.jpg",
+    "index.html": "/vancorefitness/index.html",
+    "main.ab088823.css.map": "/vancorefitness/static/css/main.ab088823.css.map",
+    "main.a30f89c1.js.map": "/vancorefitness/static/js/main.a30f89c1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab088823.css",
+    "static/js/main.a30f89c1.js"
+  ]
+}
