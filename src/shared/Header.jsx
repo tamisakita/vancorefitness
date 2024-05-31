@@ -58,10 +58,10 @@ const Header = () => {
             About Us
           </Link>
           <Link
-            to="#"
+            to="/contact-us"
             className="block mt-6 mb-10 lg:mb-0 lg:inline-block lg:mt-0 px-5 text-white hover:text-gray-400 mr-4"
           >
-            Sexto Link
+            Contact Us
           </Link>
         </div>
         <div>
