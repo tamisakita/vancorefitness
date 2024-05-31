@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Banner from "../shared/Banner";
 import Info from "../shared/Info";
 import InfoImage1 from "../assets/images/home-info.jpg";
 import InfoLeft from "../shared/InfoLeft";
 import TestimonialsCard from "../shared/TestimonialsCard";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import bannerImage from "../assets/images/home-image.jpg";
 import profileImage from "../assets/images/profile-01.jpg";
@@ -11,6 +13,11 @@ import profileImage2 from "../assets/images/profile-02.jpg";
 import profileImage3 from "../assets/images/profile-03.jpg";
 
 const Home = () => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
     <div>
       <Banner
@@ -47,7 +54,12 @@ const Home = () => {
         <h2 className="font-anton text-center text-5xl text-white pb-16">
           Why people love Van Core Fitness
         </h2>
-        <div className="grid grid-rows-3 gap-10 md:grid-cols-3 md:grid-rows-1">
+        <div
+          className="grid grid-rows-3 gap-10 md:grid-cols-3 md:grid-rows-1"
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-center"
+          data-aos-duration="1000"
+        >
           <TestimonialsCard
             image={profileImage}
             imageAlt="Van Core Fitness Customer"

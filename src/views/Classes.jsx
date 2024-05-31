@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Banner from "../shared/Banner";
 import bannerImage from "../assets/images/trainning.jpg";
 import CardLayout from "../shared/CardLayout";
 import ButtonComponent from "../shared/ButtonComponent";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import classesImg1 from "../assets/images/classes1.jpg";
 import classesImg2 from "../assets/images/classes2.jpg";
@@ -10,6 +12,11 @@ import classesImg3 from "../assets/images/classes3.jpg";
 import classesImg4 from "../assets/images/classes4.jpg";
 
 const Classes = () => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
     <div>
       <Banner
@@ -18,7 +25,11 @@ const Classes = () => {
         variant="default"
         backgroundImage={bannerImage}
       />
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mx-10 my-20 md:m-20 gap-10">
+      <div
+        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mx-10 my-20 md:m-20 gap-10"
+        data-aos="fade-up"
+        data-aos-duration="2000"
+      >
         <CardLayout
           bgImage={classesImg1}
           title="Cycling"
