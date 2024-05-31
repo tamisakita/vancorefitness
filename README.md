@@ -14,8 +14,6 @@ This was a project for the New Media and Web Development course at BCIT.
 - **Membership**: Membership plans and perks.
 - **About Us**: Information about the gym's vision, mission, and what makes it unique.
 - **Contact Us**: Contact form and information for inquiries.
-- **Booking Classes**: Feature to book fitness classes online.
-- **FAQ**: Commonly asked questions about the gym and its services.
 
 ## Technologies Used
 
