@@ -25,3 +25,5 @@ This was a project for the New Media and Web Development course at BCIT.
 This project was completed for the Project Management course, where we utilized agile scrum methodology to develop the website. Our team consisted of 4 members, and I was responsible for both development and serving as the scrum master.
 
 ## Link for the website
+
+[Van Core Fitness Website Link](https://tamisakita.github.io/vancorefitness/#/)
