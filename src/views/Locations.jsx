@@ -3,7 +3,7 @@ import bannerImage from "../assets/images/location-image.jpg";
 import Banner from "../shared/Banner";
 import LocationLayout from "../shared/LocationLayout";
 import AmenitiesCards from "../shared/AmenitiesCards";
-import { AMENITIES } from "../data/amenitiesData";
+import { amenities } from "../data/amenitiesData";
 
 const Locations = () => {
   return (
@@ -20,7 +20,7 @@ const Locations = () => {
           Our Amenities
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 place-items-center gap-10">
-          {AMENITIES.map((amenity, index) => (
+          {amenities.map((amenity, index) => (
             <AmenitiesCards
               key={index}
               image={amenity.image}

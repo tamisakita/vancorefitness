@@ -7,7 +7,7 @@ import img6 from "../assets/images/personal-trainer.jpg";
 import img7 from "../assets/images/class-studios.jpg";
 import img8 from "../assets/images/womans-only.jpg";
 
-export const AMENITIES = [
+export const amenities = [
   { image: img1, title: "Lockers" },
   { image: img2, title: "Hydro Massage" },
   { image: img3, title: "Stretch Zone" },
