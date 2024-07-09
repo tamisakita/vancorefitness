@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import "./index.css";
 
 import Layout from "./views/Layout";
@@ -13,7 +13,7 @@ import ContactUs from "./views/ContactUs";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <BrowserRouter>
+  <HashRouter>
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
@@ -25,5 +25,5 @@ root.render(
         <Route path="contact-us" element={<ContactUs />} />
       </Route>
     </Routes>
-  </BrowserRouter>
+  </HashRouter>
 );
