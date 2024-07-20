@@ -1,10 +1,10 @@
 # Van Core Fitness Website
 
-## Overview
+## :mega: Overview
 
 VanCore Fitness, a Vancouver-based gym, needed a digital presence to enhance their visibility and build a strong community. This website was developed as part of the New Media and Web Development course at BCIT.
 
-## Pages
+## :page_facing_up: Pages
 
 - **Home Page**: Welcoming message and promotional content introducing Van Core Fitness.
 - **Locations**: Details about gym locations in Cambie, Kingsway, and Kitsilano.
@@ -13,7 +13,7 @@ VanCore Fitness, a Vancouver-based gym, needed a digital presence to enhance the
 - **About Us**: Insights into the gym's vision, mission, and unique features.
 - **Contact Us**: Contact form and information for inquiries.
 
-## Technologies Used
+## :computer: Technologies Used
 
 ### Frontend
 - **React**: Leveraged for building a dynamic, component-based user interface.
@@ -26,7 +26,7 @@ VanCore Fitness, a Vancouver-based gym, needed a digital presence to enhance the
 - **[AOS (Animate On Scroll)](https://michalsnik.github.io/aos/)**: Adds scroll animations to elements for a more engaging user experience.
 - **[Google Maps](https://mapsplatform.google.com/resources/blog/introducing-react-components-for-the-maps-javascript-api/)**: Integrates map features to show gym locations.
 
-## Getting Started
+## :gear: Getting Started
 
 ### Prerequisites
 
@@ -43,18 +43,23 @@ Make sure you have the following installed:
    cd vancorefitness```
 
 2. **Install dependencies:**
-
-  `bash 
-  npm install`
+ 
+  `npm install`
 
 3. **Start the development server:**
 
   `npm start`
 
-## Author & Version Control
+## :woman_technologist: Author & Version Control
 
 Developed by [Patricia Tami Sakita](https://github.com/tamisakita) - Version 0.2
 
-## Live Demo
+## :star: Live Demo
 
 Visit Van Core Fitness Website - [Link](https://tamisakita.github.io/vancorefitness/#/)
+
+## :envelope: Contact
+
+- **Tami Sakita** - [Linkedin](https://www.linkedin.com/in/patriciatamisakita/)
+
+- **Come to see more projects** - [Portfolio](https://tamisakita.ca/)
