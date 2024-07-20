@@ -44,7 +44,8 @@ Make sure you have the following installed:
 
 2. **Install dependencies:**
 
-  `npm install`
+  `bash 
+  npm install`
 
 3. **Start the development server:**
 
