@@ -3,7 +3,7 @@
 ## :mega: Overview
 
 VanCore Fitness, a Vancouver-based gym, needed a digital presence to enhance their visibility and build a strong community. This website was developed as part of the New Media and Web Development course at BCIT.
-
+[:star: Live Demo](https://tamisakita.github.io/vancorefitness/#/)
 
 ## :page_facing_up: Pages
 
