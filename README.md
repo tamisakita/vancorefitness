@@ -68,6 +68,19 @@ Visit Van Core Fitness Website - [Link](https://tamisakita.github.io/vancorefitn
 
 ## :envelope: Contact
 
-- **Tami Sakita** - [Linkedin](https://www.linkedin.com/in/patriciatamisakita/)
+<table>
+  <tr>
+    <td align="center">
+      <a href="#">
+        <img src="https://avatars.githubusercontent.com/u/67209629?v=4" width="100px;" alt="Foto da Patricia Tami Sakita"/><br>
+        <sub>
+          <b>Patricia Tami Sakita</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+- **Linkedin** - [Link](https://www.linkedin.com/in/patriciatamisakita/)
 
 - **Come to see more projects** - [Portfolio](https://tamisakita.ca/)
