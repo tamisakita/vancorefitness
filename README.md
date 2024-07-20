@@ -43,9 +43,10 @@ Make sure you have the following installed:
 
 1. **Clone the repository:**
 
-   ```bash
-   git clone https://github.com/tamisakita/vancorefitness.git
-   cd vancorefitness```
+  ```bash
+  git clone https://github.com/tamisakita/vancorefitness.git
+  cd vancorefitness
+  ```
 
 2. **Install dependencies:**
  
