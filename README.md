@@ -49,11 +49,15 @@ Make sure you have the following installed:
 
 2. **Install dependencies:**
  
-  `npm install`
+  ```bash
+  npm install
+  ```
 
 3. **Start the development server:**
 
-  `npm start`
+  ```bash
+  npm start
+```
 
 
 ## :woman_technologist: Author & Version Control
@@ -68,19 +72,6 @@ Visit Van Core Fitness Website - [Link](https://tamisakita.github.io/vancorefitn
 
 ## :envelope: Contact
 
-<table>
-  <tr>
-    <td align="center">
-      <a href="#">
-        <img src="https://avatars.githubusercontent.com/u/67209629?v=4" width="100px;" alt="Foto da Patricia Tami Sakita"/><br>
-        <sub>
-          <b>Patricia Tami Sakita</b>
-        </sub>
-      </a>
-    </td>
-  </tr>
-</table>
-
-- **Linkedin** - [Link](https://www.linkedin.com/in/patriciatamisakita/)
+- **Tami Sakita** - [Linkedin](https://www.linkedin.com/in/patriciatamisakita/)
 
 - **Come to see more projects** - [Portfolio](https://tamisakita.ca/)
