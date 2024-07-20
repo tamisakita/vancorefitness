@@ -40,16 +40,16 @@ Make sure you have the following installed:
 
    ```bash
    git clone https://github.com/tamisakita/vancorefitness.git
-   cd vancorefitness
+   cd vancorefitness```
 
 2. **Install dependencies:**
 
-  ```bash
+  `bash
   npm install
 
 3. **Start the development server:**
 
-  ```bash
+  `bash
   npm start
 
 ## Author & Version Control
